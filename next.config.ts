@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true, // Ignore ESLint errors during build
   },
   env: {
-    API_ENDPOINT: process.env.NEXT_PUBLIC_API_ENDPOINT,
+    NEXT_PUBLIC_API_ENDPOINT: process.env.NEXT_PUBLIC_API_ENDPOINT,
   },
 };
 
